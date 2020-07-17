@@ -1,0 +1,11 @@
+package lekcja;
+
+import java.time.LocalDate;
+
+public class CoToLocalDate {
+	public static void main(String[] args) {
+		LocalDate now = LocalDate.now();
+		LocalDate firstJan2014 = LocalDate.of(2014, 1, 1);
+		
+	}
+}

@@ -1,0 +1,41 @@
+package zadanie;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ReadWordsToStreams {
+	private static final String FILE_NAME = "loremipsum.txt";
+	
+	public static void main(String[] args) {
+		//POBIERZ SŁOWA
+		//ROZDZIEL
+		//USUŃ PRZEINKI I KROPKI
+		//WYŚWIETL TE ZACZYNAJĄCE SIĘ OD S ORAZ ILE SŁÓW JEST PO PIĘĆ ZNAKÓW	
+		List<String>words = new ArrayList<>(); 
+		
+		try(
+				FileReader fr = new FileReader(FILE_NAME);
+				BufferedReader br = new BufferedReader(fr);
+				){
+			
+			String word = "";
+			
+			while((word = br.readLine()) != null) {
+				words.addAll(Arrays.asList(word.split(" ")));
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		words = words.stream().map(x -> x.replaceAll(",","").replaceAll("\\.", "")).collect(Collectors.toList());
+		
+		List<String>wordsWithS = words.stream().filter(s -> s.toLowerCase.charAt(0) == "s")
+		
+		
+	}
+	

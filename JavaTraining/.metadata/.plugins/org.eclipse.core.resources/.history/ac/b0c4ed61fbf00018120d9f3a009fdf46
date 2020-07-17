@@ -1,0 +1,28 @@
+package zadane;
+
+import java.time.Duration;
+import java.time.LocalTime;
+import java.util.Scanner;
+
+public class Stoper {
+	public static void main(String[] args) {
+		try(Scanner sc = new Scanner(System.in)){
+			System.out.println("\"Enter\" aby rozpocząć pomiar");
+			sc.nextLine();
+			LocalTime start = LocalTime.now();
+			
+			System.out.println("\"Enter\" aby zakończyć pomiar");
+			sc.nextLine();
+			LocalTime stop = LocalTime.now();
+			
+			Duration measure = Duration.between(start, stop);
+		
+			System.out.println(measure.getSeconds()+":"+measure.getNano()
+			);
+		}
+		
+		
+	
+	
+	}
+}

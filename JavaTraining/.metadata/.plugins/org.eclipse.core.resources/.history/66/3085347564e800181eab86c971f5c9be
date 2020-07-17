@@ -1,0 +1,13 @@
+package lekcja;
+
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StringsCurrent {
+	public static void main(String[] args) {
+		Stream<String>strings = Stream.of("a","bb", "ccc", "dddd", "eeeee", "ffffff", "ggggggg");
+		
+		List<Strig>stringList = strings.map(String::toUpperCase).peek(System.out::println).collect(Collectors.toList());
+	
+	}
+}

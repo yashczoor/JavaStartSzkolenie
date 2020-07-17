@@ -1,0 +1,8 @@
+package lekcja;
+
+public class ZadanieProponowaneRozwiazenie {
+	public static void main(String[] args) {
+		final String FILE_NAME = "loremipsum.txt";
+		
+	}
+}

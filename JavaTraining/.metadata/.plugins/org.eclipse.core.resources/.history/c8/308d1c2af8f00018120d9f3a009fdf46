@@ -1,0 +1,12 @@
+package lekcja;
+
+import java.time.Instant;
+
+public class CoToInstant {
+	public static void main(String[] args) {
+		//aktualny czas
+		System.out.println(Instant.now());
+		//tyle sekund od 1970
+		System.out.println(Instant.ofEpochMilli(100));
+	}
+}

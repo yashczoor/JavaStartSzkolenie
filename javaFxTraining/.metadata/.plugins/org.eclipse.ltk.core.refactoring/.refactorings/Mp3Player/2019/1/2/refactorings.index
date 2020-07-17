@@ -1,0 +1,18 @@
+1547155328932	Encapsulate field 'contentTable'
+1547155340202	Encapsulate field 'prevButton'
+1547155344175	Encapsulate field 'playButton'
+1547155347414	Encapsulate field 'nextButton'
+1547155350825	Encapsulate field 'volumeSlider'
+1547155355486	Encapsulate field 'songSlider'
+1547155365602	Encapsulate field 'fileMenu'
+1547155368876	Encapsulate field 'fileMenuItem'
+1547155371281	Encapsulate field 'dirMenuItem'
+1547155373836	Encapsulate field 'closeMenuItem'
+1547155376004	Encapsulate field 'aboutMenu'
+1547155378365	Encapsulate field 'aboutMenuItem'
+1547160805758	Move compilation unit
+1547197953262	Delete element
+1547310971655	Delete element
+1547311772825	Delete element
+1547313055699	Delete element
+1547314712452	Delete element

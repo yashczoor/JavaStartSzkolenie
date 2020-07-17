@@ -1,0 +1,4 @@
+1545831708993	Rename package 'application'
+1545832113526	Encapsulate field 'upperCaseButton'
+1545832117263	Encapsulate field 'lowerCaseButton'
+1545832196433	Encapsulate field 'mainTextArea'

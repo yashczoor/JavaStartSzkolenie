@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;data.Publication.date&apos; in &apos;data.Publication&apos;&#x0D;&#x0A;- Original project: &apos;Library&apos;&#x0D;&#x0A;- Original element: &apos;data.Publication.date&apos;&#x0D;&#x0A;- Getter method name: &apos;getDate&apos;&#x0D;&#x0A;- Setter method name: &apos;setDate&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;date&apos;" flags="589830" getter="getDate" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;data{Publication.java[Publication^date" insertion="10" setter="setDate" stamp="1543182578824" version="1.0" visibility="1"/>
+</session>

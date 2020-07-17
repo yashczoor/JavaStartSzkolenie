@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;application&apos; to &apos;pl.javastart.mp3player.main&apos;&#x0D;&#x0A;- Original project: &apos;Mp3Player&apos;&#x0D;&#x0A;- Original element: &apos;Mp3Player/src/application&apos;&#x0D;&#x0A;- Renamed element: &apos;Mp3Player/src/pl.javastart.mp3player.main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;application&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;application" name="pl.javastart.mp3player.main" qualified="false" references="true" stamp="1544026891922" textual="false" version="1.0"/>
+</session>

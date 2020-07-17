@@ -1,0 +1,9 @@
+package lekcja;
+
+import java.time.LocalTime;
+
+public class CoToLocalTime {
+	public static void main(String[] args) {
+		LocalTime now = LocalTime.now();
+	}
+}

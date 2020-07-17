@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+      <VBox prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar maxWidth="1.7976931348623157E308" VBox.vgrow="NEVER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Plik">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Zapisz" />
+                        <MenuItem mnemonicParsing="false" text="Zamknij" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label maxWidth="1.7976931348623157E308" text="NazwaPliku.txt" VBox.vgrow="NEVER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="200.0" promptText="tu pisz" wrapText="true" VBox.vgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Wyczyść zawartość" textAlignment="CENTER" VBox.vgrow="NEVER" />
+         </children>
+      </VBox>

@@ -1,0 +1,6 @@
+1540055244011	Encapsulate field 'firstName'
+1540055246366	Encapsulate field 'lastName'
+1540055254091	Encapsulate field 'pesel'
+1540058314798	Encapsulate field 'people'
+1540058601168	Extract constant 'INITIAL_SIZE2'
+1540058693587	Encapsulate field 'currPos'

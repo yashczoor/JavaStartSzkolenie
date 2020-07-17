@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;FXMVC&apos;&#x0D;&#x0A;- Original project: &apos;FXMVC&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     FXMVC/src/zadanie&#x0D;&#x0A;     buttonsView.fxml" description="Delete elements" element1="/src&lt;zadanie" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1544647206143" subPackages="false" version="1.0"/>
+</session>

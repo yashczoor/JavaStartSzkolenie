@@ -1,0 +1,17 @@
+package lekcja;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class IstniejaceStrumienie {
+	public static void main(String[] args) {
+		String napis = "Piotr";
+		
+		Set napisJakoZbior = napis.chars().collect(Collectors.toSet(HashSet::new));
+	}
+	
+	
+	
+	
+}

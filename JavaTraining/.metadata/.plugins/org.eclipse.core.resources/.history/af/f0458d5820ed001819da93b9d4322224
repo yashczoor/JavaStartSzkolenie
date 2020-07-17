@@ -1,0 +1,23 @@
+package zadanie;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ZadanieProponowaneRozwiazenie {
+	public static void main(String[] args) throws IOException {
+		final String FILE_NAME = "loremipsum.txt";
+		BufferedReader br = new BufferedReader(new FileReader(FILE_NAME));
+		List<String>words = new ArrayList<>();
+		String tmp = null;
+		
+		while((tmp = br.readLine()) != null) {
+			
+		}
+		
+	
+	}
+}
